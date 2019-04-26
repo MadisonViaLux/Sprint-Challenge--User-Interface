@@ -26,6 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 
 
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -53,9 +54,30 @@ table {
     box-sizing: border-box;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5 {
