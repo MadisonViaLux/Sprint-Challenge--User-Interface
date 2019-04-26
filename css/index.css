@@ -58,7 +58,11 @@ table {
 
 
 
+/*   *{
+    background-color: pink;
+}  
 
+*/
 
 
 
@@ -74,20 +78,40 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navigation{
+
+.navigation .TopBar{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
+    margin: 30px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
+.TopBar a{
+    color: black;
+}
+
+.navigation .LongPic {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+
+
+
 h1, h2, h3, h4, h5 {
-    font-size: 1px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.4;
+    font-weight: bold;
 }
 
 .container {
@@ -126,54 +150,72 @@ p {
 }
 
 .middle-content .boxes{
-    width: 12.5%;
-    height: 100px;
+    border: 1px solid red;
+    width: 750px;
+    height: 200px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
 }
 
 .box1{
     background: teal;
+    padding: 30px;
 }
 .box2{
     background: gold;
+    padding: 30px;
 }
 
 .box3{
     background: cadetblue;
+    padding: 30px;
 }
 
 .box4{
     background: coral;
+    padding: 30px;
 }
 
 .box5{
     background: crimson;
+    padding: 30px;
 }
 
 .box6{
     background: forestgreen;
+    padding: 30px;
 }
 
 .box7{
     background: darkorchid;
+    padding: 30px;
 }
 
 .box8{
     background: hotpink;
+    padding: 30px;
 }
 
 .box9{
     background: indigo;
+    padding: 30px;
 }
 
 .box10{
     background: dodgerblue;
+    padding: 30px;
 }
-
 
 
 .bottom-content {
@@ -208,3 +250,65 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.AboutTop {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
+
+.MidCol{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+.TopMid{
+    display: flex;
+}
+
+.topImg{
+    display: flex;
+    align-content: space-between;
+    margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
