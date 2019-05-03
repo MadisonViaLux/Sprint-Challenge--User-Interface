@@ -93,6 +93,7 @@ html, body {
 
 .TopBar a{
     color: black;
+    text-decoration: none;
 }
 
 .LongPic {
@@ -110,11 +111,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
+    font-size: 20px;
 }
 
 p {
     line-height: 1.4;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .container {
@@ -301,37 +304,94 @@ footer nav a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .AboutTop {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 
+.middleSection {
+    display: flex;
+}
 
-.MidCol{
+.MidBoxText {
+    margin: 10px 0px;
+}
+
+.ImgMid {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    margin: 10px;
 }
 
-
-.TopMid{
-    display: flex;
+button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-.topImg{
-    display: flex;
-    align-content: space-between;
-    margin: 20px;
-
+.con1 {
+    border-bottom: 1px dashed black;
+    margin: 15px 5px 50px 0px;
 }
 
+.con2 {
+    border-bottom: 1px dashed black;
+    margin: 15px 5px 50px 0px;
+}
 
+.con3 {
+    border-bottom: 1px dashed black;
+    margin: 15px 0px 50px 5px;
+}
 
-
-
-
-
+.con4 {
+    border-bottom: 1px dashed black;
+    margin: 15px 0px 50px 5px;
+}
 
 
 
