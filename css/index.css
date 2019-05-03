@@ -273,6 +273,8 @@ p {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background: black;
 }
@@ -282,7 +284,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px;
     font-size: 14px;
 }
 
@@ -394,7 +396,9 @@ button{
 }
 
 
-
+.WorkTogether{
+    padding-bottom: 50px;
+}
 
 
 
